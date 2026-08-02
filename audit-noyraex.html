@@ -258,7 +258,7 @@
 
   <div class="report-header">
     <div class="eyebrow">QA Audit Report · 02.08.2026</div>
-    <h1>Форма создания проекта — NOYRAEX</h1>
+    <h1>QA-аудит NOYRAEX — форма создания проекта и навигация сайта</h1>
     <div class="meta-row">
       <span>Объект: klicxi.github.io</span>
       <span>Окружение: iOS / Web</span>
@@ -399,8 +399,7 @@ const bugs = [
   },
   {
     id:'15', sev:'low', title:'Favicon отдаёт 404',
-    steps:['Открыть главную страницу','Перейти в Creator через меню'],
-    actual:'Запрос GET https://klicxi.github.io/favicon.ico возвращает 404 (Not Found).'
+    actual:'Запрос GET https://klicxi.github.io/favicon.ico возвращает 404 (Not Found). Фиксируется в консоли при загрузке любой страницы сайта.'
   },
 ];
 
